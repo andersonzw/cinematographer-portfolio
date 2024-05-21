@@ -20,7 +20,7 @@ const About = () => {
         {/* Left flex */}
         <div className="relative w-1/2">
           <img
-            src="public/portrait.jpg"
+            src="/portrait.jpg"
             alt="camera "
             className=" w-full h-full object-cover "
           />
@@ -36,7 +36,7 @@ const About = () => {
         <div className="flex flex-col  w-1/2">
           <div className="relative w-full h-1/2 ">
             <img
-              src="public/wedding.jpg"
+              src="/wedding.jpg"
               alt="camera "
               className=" w-full h-full object-cover"
             />
@@ -50,7 +50,7 @@ const About = () => {
           </div>
           <div className=" relative w-full h-1/2 ">
             <img
-              src="public/event.jpg"
+              src="/event.jpg"
               alt="camera "
               className=" w-full h-full object-cover"
             />

@@ -7,7 +7,7 @@ import Reel from "./routes/Reel";
 
 function App() {
   return (
-    <div className="relative flex flex-col">
+    <div className="relative w-full">
       <Header />
       <Hero />
 

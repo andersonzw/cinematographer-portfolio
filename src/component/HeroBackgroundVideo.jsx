@@ -13,7 +13,7 @@ const HeroBackgroundVideo = () => {
       <div
         className="absolute top-0 left-0 min-w-full h-full"
         style={{
-          backgroundColor: "rgba(0, 0, 0, 0.7)",
+          backgroundColor: "rgba(0, 0, 0, 0.5)",
           backgroundImage: "radial-gradient(circle, black 10%, transparent 10%)",
            backgroundSize: "10px 10px",
           
