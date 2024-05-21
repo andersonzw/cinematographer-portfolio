@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <div className="bg-black ">
+    <section className="bg-black ">
       <div className="bg-white min-h-[30vh] text-black text-center text-2xl flex p-8">
         <h1 className="max-w-screen-xl mx-auto my-auto">
           Dedicated, creative, and professional videography that brings your
@@ -16,10 +16,10 @@ const About = () => {
             alt="camera "
             className=" w-full h-full object-cover "
           />
-          <div className="bottom-0 left-0 w-full h-full absolute bg-[rgba(0,0,0,0.76)]  backdrop-blur-md opacity-0 hover:opacity-100 px-8 py-12 flex flex-col items-center justify-center">
+          <a href="/about" className="bottom-0 left-0 w-full h-full absolute bg-[rgba(0,0,0,0.76)]  backdrop-blur-md opacity-0 hover:opacity-100 px-8 py-12 flex flex-col items-center justify-center">
             <h1 className="text-4xl font-bold uppercase ">About</h1>
-            <p>Anderson Yang</p>
-          </div>
+            <p>Samuel Liu</p>
+          </a>
         </div>
         {/* Right flex */}
         <div className="flex flex-col  w-1/2">
@@ -44,9 +44,7 @@ const About = () => {
               className=" w-full h-full object-cover"
             />
             <div className="bottom-0 left-0 w-full h-full absolute bg-[rgba(0,0,0,0.76)]  backdrop-blur-md opacity-0 hover:opacity-100  px-8 py-12 flex flex-col items-center justify-center">
-              <h1 className="text-4xl font-bold uppercase ">
-                video editing
-              </h1>
+              <h1 className="text-4xl font-bold uppercase ">video editing</h1>
               <p>Drone Reels &#8226; Montages &#8226; Compilations </p>
             </div>
           </div>
@@ -57,7 +55,7 @@ const About = () => {
           60+ videos produced and edited, 5 years of experience.
         </h1>
       </div>
-    </div>
+    </section>
   );
 };
 

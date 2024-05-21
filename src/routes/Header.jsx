@@ -11,8 +11,8 @@ const Header = () => {
         <p className=" cursor-pointer ">SHowreel</p>
         <p className=" cursor-pointer">Contact</p>
         <p className=" ">|</p>
-        <p className=" cursor-pointer">About</p>
-        <p className=" cursor-pointer">Portfolio</p>
+        <a href="/about" className=" cursor-pointer">About</a>
+        <a href="/portfolio" className=" cursor-pointer">Portfolio</a>
       </div>
     </div>
   );
