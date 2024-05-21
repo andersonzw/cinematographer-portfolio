@@ -15,3 +15,8 @@
 .text-shadow {
   text-shadow: 1px 1px 0px black; 
 }
+
+.tiles-hover-transition {
+  transition: opacity 0.3s ease-in-out;
+}
+
