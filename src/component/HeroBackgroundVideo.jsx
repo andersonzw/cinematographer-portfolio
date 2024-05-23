@@ -3,8 +3,8 @@ const HeroBackgroundVideo = () => {
   return (
     <div className="absolute top-0 left-0 h-full w-full overflow-hidden z-0">
       <video
-        autoPlay
-        loop
+        // autoPlay
+        // loop
         muted
         playsInline
         className="w-full h-full object-cover"
@@ -14,8 +14,8 @@ const HeroBackgroundVideo = () => {
         className="absolute top-0 left-0 min-w-full h-full"
         style={{
           backgroundColor: "rgba(0, 0, 0, 0.5)",
-          backgroundImage: "radial-gradient(circle, black 10%, transparent 10%)",
-           backgroundSize: "10px 10px",
+          // backgroundImage: "radial-gradient(circle, black 10%, transparent 10%)",
+          //  backgroundSize: "10px 10px",
           
         }}
       ></div>

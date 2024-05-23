@@ -8,7 +8,7 @@ const About = () => {
   });
 
   return (
-    <section className="bg-black ">
+    <section className="bg-white  ">
       <div className="bg-white min-h-[30vh] text-black text-center text-2xl flex p-8">
         <h1 className="max-w-screen-xl mx-auto my-auto">
           Dedicated, creative, and professional videography that brings your
@@ -16,7 +16,7 @@ const About = () => {
         </h1>
       </div>
       {/* Tiles */}
-      <div className="max-h-[80vh]  mx-auto w-full flex cursor-pointer">
+      <div className="max-h-[80vh]  px-8 mx-auto w-full flex cursor-pointer">
         {/* Left flex */}
         <div className="relative w-1/2">
           <img
