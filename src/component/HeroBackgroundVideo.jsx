@@ -3,8 +3,8 @@ const HeroBackgroundVideo = () => {
   return (
     <div className="absolute top-0 left-0 h-full w-full overflow-hidden z-0">
       <video
-        // autoPlay
-        // loop
+        autoPlay
+        loop
         muted
         playsInline
         className="w-full h-full object-cover"

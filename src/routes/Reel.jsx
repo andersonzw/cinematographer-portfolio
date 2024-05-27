@@ -1,7 +1,10 @@
+import { useContext } from "react";
+import { ScrollContext } from "../util/ScrollContext";
 
 const Reel = () => {
+  const { showreelRef } = useContext(ScrollContext);
   return (
-    <div className="w-full px-8 ">
+    <section  ref={showreelRef} className="w-full ">
       <div className="">
         <iframe
           src="https://www.youtube.com/embed/NcBjx_eyvxc?si=0-0IOo4Pb1ncuMzZ"
@@ -12,7 +15,7 @@ const Reel = () => {
           className="w-full h-screen"
         ></iframe>
       </div>
-    </div>
+    </section>
   );
 };
 

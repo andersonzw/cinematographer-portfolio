@@ -24,3 +24,14 @@
 .grid-tiles {
   grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
 }
+
+
+body::-webkit-scrollbar {
+  background-color: #837e7e52;
+  width: 0.62rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #292938;
+
+}

@@ -1,9 +1,15 @@
 import { MdEmail } from "react-icons/md";
 import { IoMdPhonePortrait } from "react-icons/io";
+import { useContext } from "react";
+import { ScrollContext } from "../util/ScrollContext";
 
 const Contact = () => {
+  const {contactRef} = useContext(ScrollContext);
   return (
-    <section className="bg-white text-black min-h-[50vh] text-center p-8 pt-[8rem]">
+    <section
+      ref={contactRef}
+      className="bg-white text-black min-h-[50vh] text-center p-8 pt-[8rem]"
+    >
       <h3 className="text-4xl mb-8">Get in touch!</h3>
       <p className="mx-auto max-w-screen-lg text-xl">
         Ready to transform your ideas into engaging visual stories? I&apos;m
@@ -17,7 +23,7 @@ const Contact = () => {
         <div className="text-xl py-4 px-12 rounded-lg border-black border-[1px] border-opacity-45 ">
           Email
           <div className="flex items-center gap-2 pt-2">
-            <MdEmail /> <span className="text-base" >samuel-liu@mail.com</span>
+            <MdEmail /> <span className="text-base">samuel-liu@mail.com</span>
           </div>
         </div>
         <div className="text-xl py-4 px-12 rounded-lg border-black border-[1px] border-opacity-45">
