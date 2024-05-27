@@ -19,16 +19,16 @@ const Contact = () => {
         concepts into reality, look no further. Let&apos;s collaborate and
         create something amazing!
       </p>
-      <div className=" mx-auto max-w-screen-lg flex pt-10 justify-center items-center gap-12">
-        <div className="text-xl py-4 px-12 rounded-lg border-black border-[1px] border-opacity-45 ">
+      <div className=" mx-auto max-w-screen-lg flex flex-wrap pt-10 justify-center items-center gap-12 md:gap-4">
+        <div className="text-xl py-4 px-10 rounded-lg border-black border-[1px] border-opacity-45 w-[300px]">
           Email
-          <div className="flex items-center gap-2 pt-2">
+          <div className="flex items-center justify-center gap-2 pt-2">
             <MdEmail /> <span className="text-base">samuel-liu@mail.com</span>
           </div>
         </div>
-        <div className="text-xl py-4 px-12 rounded-lg border-black border-[1px] border-opacity-45">
+        <div className="text-xl py-4 px-10 rounded-lg border-black border-[1px] border-opacity-45 w-[300px]">
           Phone
-          <div className="flex items-center gap-2 pt-2">
+          <div className="flex items-center justify-center gap-2 pt-2">
             <IoMdPhonePortrait />
             <span className="text-base">+61 123 456 890</span>
           </div>
